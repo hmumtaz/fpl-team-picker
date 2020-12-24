@@ -6,3 +6,5 @@ Uses the FPL API to create a team based on the top overall teams for a given gam
 1. Set the `GAMEWEEK` and the number of `PAGES` to query from the standings in the overall league. Note that each page has 50 entries. The more pages you select the longer the program will take to run
 2. Install the necessary pip requirements
 3. Run `python team_picker.py`
+
+The program returns a printed out an optimal team however you can dive into the returned CSV files to get the top picked players for each position.
